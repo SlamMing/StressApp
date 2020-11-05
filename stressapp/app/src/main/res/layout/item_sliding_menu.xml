@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:id="@+id/nav_home"/>
+        <item
+            android:title="Add Stress"
+            android:id="@+id/nav_addstress"/>
+        <item
+            android:title="StressApp"
+            android:id="@+id/nav_stressapp"/>
+        <item
+            android:title="Settings"
+            android:id="@+id/nav_settings"/>
+
+    </group>
+</menu>
